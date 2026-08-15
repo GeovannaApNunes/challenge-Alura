@@ -275,6 +275,6 @@ docker compose up -d
 
 ## Autor
 
-`[Geovanna Nunes]` —
+`[Geovanna Nunes]` 
 
 Projeto desenvolvido para o **Challenge Alura Agentes / ONE AI for Tech**.
