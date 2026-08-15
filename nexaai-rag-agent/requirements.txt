@@ -1,0 +1,14 @@
+# NexaAI — Assistente Corporativo
+# Dependências principais (versões testadas e compatíveis entre si)
+
+langchain==1.3.15
+langchain-chroma==1.1.0
+langchain-google-genai==4.3.4
+langchain-text-splitters==1.1.2
+chromadb==1.5.9
+pypdf==6.16.1
+python-dotenv==1.2.2
+streamlit==1.61.1
+
+# Dependências de teste (opcional, usadas em tests/)
+pytest==9.1.1

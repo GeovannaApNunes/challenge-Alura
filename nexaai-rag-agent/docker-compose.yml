@@ -1,0 +1,15 @@
+services:
+  nexaai:
+    build: .
+    container_name: nexaai-assistente
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      # Persiste o índice vetorial fora do container, para não perder a
+      # indexação ao recriar o container.
+      - ./chroma_db:/app/chroma_db
+      # Permite atualizar os documentos sem reconstruir a imagem.
+      - ./data:/app/data
+    restart: unless-stopped
